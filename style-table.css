@@ -11,13 +11,14 @@ table.dataframe tr {
 }
 table.dataframe td, table.dataframe th {
     margin: 0;
-    border: 1px solid white;
+    border: 1px solid #C48726;
     padding-left: 0.25em;
     padding-right: 0.25em;
 }
-table.dataframe th:not(:empty) {
-    background-color: #fec;
-    text-align: left;
+table.dataframe th/*:not(:empty)*/ {
+    background-color: #B41A09;
+    color: white;
+    text-align: center;
     font-weight: normal;
 }
 table.dataframe tr:nth-child(2) th:empty {
@@ -25,6 +26,6 @@ table.dataframe tr:nth-child(2) th:empty {
     border-right: 1px dashed #888;
 }
 table.dataframe td {
-    border: 2px solid #ccf;
-    background-color: #f4f4ff;
+    border: 1px solid #C48726;
+    background-color: white;
 }
